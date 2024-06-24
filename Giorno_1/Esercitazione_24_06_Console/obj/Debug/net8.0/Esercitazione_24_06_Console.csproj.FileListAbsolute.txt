@@ -1,0 +1,14 @@
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\bin\Debug\net8.0\Esercitazione_24_06_Console.exe
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\bin\Debug\net8.0\Esercitazione_24_06_Console.deps.json
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\bin\Debug\net8.0\Esercitazione_24_06_Console.runtimeconfig.json
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\bin\Debug\net8.0\Esercitazione_24_06_Console.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\bin\Debug\net8.0\Esercitazione_24_06_Console.pdb
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.AssemblyInfo.cs
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\refint\Esercitazione_24_06_Console.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.pdb
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.genruntimeconfig.cache
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\ref\Esercitazione_24_06_Console.dll

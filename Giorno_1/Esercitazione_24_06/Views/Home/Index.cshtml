@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<Food>
+
+<div class="text-center">
+    <h1 class="display-4">Esercitazione 24/06</h1>
+    <p>Sono stati trasferiti @Model.Count elementi</p>
+
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><span>@item.Name, euro @item.price</span></li>
+        }
+    </ul>
+</div>
