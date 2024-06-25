@@ -12,3 +12,4 @@ C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_2
 C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.pdb
 C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.genruntimeconfig.cache
 C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\ref\Esercitazione_24_06_Console.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_1\Esercitazione_24_06_Console\obj\Debug\net8.0\Esercitazione_24_06_Console.sourcelink.json

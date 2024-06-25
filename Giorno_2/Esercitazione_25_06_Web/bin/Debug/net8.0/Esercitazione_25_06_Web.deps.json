@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Esercitazione_25_06_Web/1.0.0": {
+        "dependencies": {
+          "Esercitazione_25_06_Console": "1.0.0"
+        },
+        "runtime": {
+          "Esercitazione_25_06_Web.dll": {}
+        }
+      },
+      "Esercitazione_25_06_Console/1.0.0": {
+        "runtime": {
+          "Esercitazione_25_06_Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Esercitazione_25_06_Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esercitazione_25_06_Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

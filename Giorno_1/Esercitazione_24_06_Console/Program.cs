@@ -1,13 +1,12 @@
 ﻿namespace Esercitazione_24_06_Console
-{
+{   
+
     internal class Program { 
     
             public  string Name { get; set; }
             public  decimal Price { get; set; }
 
-        private void Start()
-        {
-            var list = new List<Program>
+            public List<Program> List { get;} = new List<Program>
             {
                 new Program {Name = "Coca Cola 150 ML", Price = 2.50m },
                 new Program {Name = "Insalata di Pollo", Price = 5.20m },
@@ -21,14 +20,20 @@
                 new Program {Name = "Panino Hamburger", Price = 7.90m }
             };
 
+        private void Start()
+        {
+           
+
             Console.WriteLine("======= MENU ======");
-            for (int i = 0; i < list.Count; i++)
+            for (int i = 0; i < List.Count; i++)
             {
-                Console.WriteLine($"{i}: {list[i].Name} - {list[i].Price}");
+                Console.WriteLine($"{i}: {List[i].Name} - {List[i].Price}");
             }
-            Console.WriteLine($"{list.Count + 1}: Stampa conto finale e conferma");
+            Scegli();
+            Console.WriteLine($"{List.Count + 1}: Stampa conto finale e conferma");
+
             int scelta = int.Parse(Console.ReadLine());
-            if (scelta == list.Count + 1) {
+            if (scelta == List.Count + 1) {
                 Console.WriteLine("\n\n Hai Scelto: Stampa conto finale e conferma\n");
                 ContoFinale();
             }
@@ -38,8 +43,28 @@
             
         }
 
+
+        private void Scegli()
+        {
+            Console.WriteLine("\nScegli gli elementi da aggiungere al carrello:\n");
+            var carrello = new List<Program> { };
+            int scelta = int.Parse(Console.ReadLine());
+            if (scelta > 0 && scelta <= List.Count)
+            { 
+                carrello.Add(List[scelta]);
+                Console.WriteLine($"Hai inserito:{List[scelta].Name}");
+                Scegli();
+            }
+
+            for (int i = 0; i < carrello.Count; i++)
+            {
+                Console.WriteLine($"Elemento in posizione {i} nel carrello: {carrello[i].Name}\n");
+            }
+        }
+
         private void ContoFinale()
         {
+            
             
         }
 

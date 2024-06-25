@@ -1,0 +1,30 @@
+﻿@using Esercitazione_25_06
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model CV
+
+<div class="text-center">
+    <h1 class="display-4">Esercitazione 25_06</h1>
+
+    <h1>Informazioni Personali</h1>
+    <p>Nome: @Model.Info.Nome</p>
+    <p>Cognome: @Model.Info.Cognome</p>
+    <p>Email: @Model.Info.Email</p>
+    <p>Telefono: @Model.Info.Telefono</p>
+
+    <h1>Studi Effettivi</h1>
+    <p>Qualifica: @Model.Studi.Qualifica</p>
+    <p>Istituto: @Model.Studi.Istituto</p>
+    <p>Tipo: @Model.Studi.Tipo</p>
+    <p>Dal: @Model.Studi.Dal</p>
+    <p>Al: @Model.Studi.Al</p>
+
+    <h1>Impieghi</h1>
+    <p>Azienda: @Model.Impieghi.Esperienza.Azienda</p>
+    <p>Job Title: @Model.Impieghi.Esperienza.JobTitle</p>
+    <p>Dal: @Model.Impieghi.Esperienza.Dal</p>
+    <p>Al: @Model.Impieghi.Esperienza.Al</p>
+    <p>Descrizione: @Model.Impieghi.Esperienza.Descrizione</p>
+    <p>Compiti: @Model.Impieghi.Esperienza.Compiti</p>
+</div>

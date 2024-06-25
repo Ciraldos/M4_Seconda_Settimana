@@ -1,0 +1,12 @@
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\bin\Debug\net8.0\Esercitazione_25_06_Console.deps.json
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\bin\Debug\net8.0\Esercitazione_25_06_Console.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\bin\Debug\net8.0\Esercitazione_25_06_Console.pdb
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06_Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06_Console.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06_Console.AssemblyInfo.cs
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06_Console.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06_Console.sourcelink.json
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06_Console.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\refint\Esercitazione_25_06_Console.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06_Console.pdb
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\ref\Esercitazione_25_06_Console.dll

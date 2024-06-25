@@ -1,0 +1,15 @@
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\bin\Debug\net8.0\Esercitazione_25_06.exe
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\bin\Debug\net8.0\Esercitazione_25_06.deps.json
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\bin\Debug\net8.0\Esercitazione_25_06.runtimeconfig.json
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\bin\Debug\net8.0\Esercitazione_25_06.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\bin\Debug\net8.0\Esercitazione_25_06.pdb
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06.AssemblyInfo.cs
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06.sourcelink.json
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\refint\Esercitazione_25_06.dll
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06.pdb
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\Esercitazione_25_06.genruntimeconfig.cache
+C:\Users\andre\Desktop\Epicode1\M4\M4_Seconda_Settimana\Giorno_2\Esercitazione_25_06\obj\Debug\net8.0\ref\Esercitazione_25_06.dll
