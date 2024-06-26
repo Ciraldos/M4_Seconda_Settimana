@@ -1,0 +1,64 @@
+﻿@using Esercitazione_26_06.ViewModel
+@model PrenotazioneViewModel
+
+@{
+
+}
+
+@{
+    var halls = new List<SelectListItem> {
+        new SelectListItem{ Text = "Sala Nord", Value="Sala Nord"},
+        new SelectListItem{Text = "Sala Est", Value = "Sala Est" },
+        new SelectListItem{Text = "Sala Sud", Value = "Sala Sud" },
+
+    };
+    var ticket = new List<SelectListItem>
+    {
+        new SelectListItem{Text = "Intero", Value="Intero"},
+        new SelectListItem{Text = "Ridotto", Value="Ridotto"}
+
+    };
+}
+
+<div class="text-center">
+    <h1 class="display-4">Crea biglietti</h1>
+    <div class="row">
+        <div class="col-6">
+            <form asp-action="Crea">
+                <div class="form-group">
+                    <label asp-for="NuovaPrenotazione.FirstName" class="control-label"></label>
+                    <input asp-for="NuovaPrenotazione.FirstName" class="form-control" />
+                    <span asp-validation-for="NuovaPrenotazione.FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NuovaPrenotazione.LastName" class="control-label"></label>
+                    <input asp-for="NuovaPrenotazione.LastName" class="form-control" />
+                    <span asp-validation-for="NuovaPrenotazione.LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NuovaPrenotazione.Hall.Nome" class="control-label"></label>
+                    <select asp-for="NuovaPrenotazione.Hall.Nome" asp-items="halls" class="form-select"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NuovaPrenotazione.Ticket" class="control-label"></label>
+                    <select asp-for="NuovaPrenotazione.Ticket" asp-items="ticket" class="form-select"></select>
+                </div>
+                <div class="form-group mt-3">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+            </form>
+        </div>
+        <div class="col-4">
+            @foreach (var person in Model.ListaPrenotazioni)
+            {
+                <div class="mt-4 rounded-3 border border-2 border-black py-3">
+                    <h3>@person.FirstName @person.LastName</h3>
+                    <h4>@person.Hall.Nome</h4>
+                    <h4>@person.Ticket</h4>
+                    <p class="text-info">@person.Hall.PostiOccupati / @person.Hall.TotPosti</p>
+
+                </div>
+            }
+        </div>
+    </div>
+</div>
