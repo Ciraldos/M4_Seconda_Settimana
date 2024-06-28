@@ -27,7 +27,13 @@
                                         <h5 class="card-text text-white">Prezzo: <span class="myColor">€ @product.Price</span></h5>
                                         <h5 class="card-text text-white">Descrizione: <span class="myColor">@product.Description </span></h5>
                                         <p class="card-text text-white"><small class="text-body-secondary">Pubblicato il: <span class="myColor">@product.Published</span></small></p>
-                                        <a asp-action="Dettagli" asp-route-id="@product.Id" class="btn myBtnCreate">Dettagli</a>
+                                        <div class="d-flex">
+                                            <a asp-action="Dettagli" asp-route-id="@product.Id" class="btn myBtnCreate me-2">Dettagli</a>
+                                            <form asp-action="Delete" method="post">
+                                                <input type="hidden" name="id" value="@product.Id" />
+                                                <button type="submit" class="btn myBtnBack">Elimina</button>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

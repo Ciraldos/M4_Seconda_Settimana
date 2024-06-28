@@ -93,6 +93,13 @@ namespace Esercizio_28_06.Controllers
             return View(product);
         }
 
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            _productService.Delete(id);
+            return RedirectToAction(nameof(Index));
+        }
+
         public IActionResult Privacy()
         {
             return View();
