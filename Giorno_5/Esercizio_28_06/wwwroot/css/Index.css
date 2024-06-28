@@ -1,0 +1,32 @@
+﻿
+ .container {
+    background-color: #10111a;
+}
+
+
+.myBtnCreate {
+    color: white;
+    background-color: #12664f;
+}
+
+.myBtnBack {
+    color: white;
+    background-color: #D72638;
+}
+
+.myGradient {
+    background: linear-gradient( 180deg, rgba(27, 28, 43, 0.6054796918767507) 19%, rgba(16, 17, 26, 0.6138830532212884) 77% );
+    border: 3px solid;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+    .myGradient:hover {
+        background: linear-gradient(180deg, rgba(79,81,110,0.19) 19%, rgba(39,41,61,0.77) 77%);
+        transition: 0.3s;
+        transform: scale(1.1);
+    }
+
+.myColor {
+    color:#576CA8 
+}

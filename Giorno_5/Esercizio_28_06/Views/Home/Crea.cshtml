@@ -1,0 +1,53 @@
+﻿@model Esercizio_28_06.Entities.Product
+
+@{
+    ViewData["Title"] = "Crea";
+}
+<link rel="stylesheet" href="~/css/Crea.css" />
+
+<div class="row justify-content-center py-4">
+        <div class="col-md-6 py-4 px-5 myGradient">
+            <h1 class="text-center text-white display-4">Crea un prodotto</h1>
+            <form asp-action="Crea" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label text-white mb-1">Inserisci Nome:</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label text-white mt-2 mb-1">Inserisci Prezzo:</label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label text-white  mt-2  mb-1">Inserisci Descrizione:</label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Cover" class="control-label text-white  mt-2  mb-1">Inserisci Foto 1:</label>
+                    <input asp-for="Cover" class="form-control" />
+                    <span asp-validation-for="Cover" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FirstImg" class="control-label text-white  mt-2  mb-1">Inserisci Foto 2:</label>
+                    <input asp-for="FirstImg" class="form-control" />
+                    <span asp-validation-for="FirstImg" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SecondImg" class="control-label text-white mt-2  mb-1">Inserisci Foto 3:</label>
+                    <input asp-for="SecondImg" class="form-control" />
+                    <span asp-validation-for="SecondImg" class="text-danger"></span>
+                </div>
+                <div class="form-group d-flex justify-content-between align-items-center my-4">
+                    <input type="submit" value="Create" class="btn myBtnCreate" />
+                    <a asp-action="Index" class="btn myBtnBack">Back to List</a>
+                </div>
+            </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
